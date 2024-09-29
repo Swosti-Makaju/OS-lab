@@ -17,7 +17,6 @@ void *fun2(){
       y=shared;
       y--;
       printf("Local updation by Thread2: %d\n ",y);
-      y--;
       sleep(1);
       shared=y;
       printf("Value of shared variable updated by Thread2 is : %d\n",shared);
